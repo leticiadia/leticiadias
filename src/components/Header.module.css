@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  padding: 3.2rem;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo p {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.header .logo .dot {
+  background-color: #a5b4fc;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+
+  margin-bottom: -12px;
+}
+
+.header nav .navbar {
+  list-style: none;
+
+  display: flex;
+  gap: 2.4rem;
+}
+
+.header nav .navbar li a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #000;
+  position: relative;
+}
+
+.header nav .navbar a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #a5b4fc;
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+}
+
+.header nav .navbar a:hover::after {
+  width: 100%;
+  transition: width 300ms ease-in-out;
+}
