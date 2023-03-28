@@ -1,6 +1,6 @@
 ## 🖼️ Preview
 
-![3D-Flip-Card](/src/assets/images/homepage.png)
+![3D-Flip-Card](src/assets/images/homepage.png)
 
 <h1 align="center">leticiadias</h1>
 
